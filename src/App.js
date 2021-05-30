@@ -9,7 +9,7 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <StoreProvider>
+     <StoreProvider>
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
@@ -25,3 +25,5 @@ function App() {
     </StoreProvider>
   );
 }
+
+export default App;
